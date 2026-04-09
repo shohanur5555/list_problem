@@ -1,0 +1,16 @@
+// 👉 একটি নতুন list বানাও যেখানে শুধু even number থাকবে
+
+// [1,2,3,4,5,6]
+// 👉 Output: [2,4,6]
+
+void main(){
+  List<int> list = [1,2,3,4,5,6];
+  List<int> evenNumberList = [];
+  
+  for(int i = 0; i < list.length; i++){
+    if(list[i] % 2 == 0){
+      evenNumberList.add(list[i]);
+    }
+  }
+  print(evenNumberList);
+}
