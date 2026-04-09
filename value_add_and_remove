@@ -1,0 +1,15 @@
+// 4. Add & Remove
+
+// 👉 একটি list এ:
+
+// 1টা value add করো
+// 1টা value remove করো
+
+void main(){
+  List <int> list = [4,5,6,7,8,9,10,11,12,13,14,15];
+  
+  list.add(3);
+  list.remove(4);
+  print(list);
+  
+}
