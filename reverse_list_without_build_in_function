@@ -1,0 +1,15 @@
+// 9. Reverse List (Without built-in reverse)
+
+// 👉 নিজে logic দিয়ে list reverse করো
+
+
+void main(){
+  List<int> list = [1,2,3,4,5,6,7,8,9,10];
+  List<int> reversList = [];
+  
+  for(int i = list.length -1; i >= 0; i--){
+    reversList.add(list[i]);
+  }
+  
+  print(reversList);
+}
