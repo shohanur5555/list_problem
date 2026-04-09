@@ -1,0 +1,21 @@
+// Condition:
+
+// Length ≥ 5 → true
+// Otherwise → false
+
+bool longList(List list){
+  if(list.length >= 5){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+void main(){
+  if(longList([1,5,4,2]) == true ){
+    print('Long length list');
+  }
+  else{
+    print('It is not a long length list');
+  }
+}
