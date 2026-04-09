@@ -1,0 +1,6 @@
+void main(){
+  var list = ['shohan','Shohanur',125,15.02,true];
+  print(list[0]);
+  print('index 0 = ${list[0]} and index 3 is = ${list[3]}');
+  
+}
