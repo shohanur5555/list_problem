@@ -1,0 +1,11 @@
+
+void main(){
+  List<int> list = [1, 2, 3, 4, 5];
+  int summetion = 0;
+  
+  for(int i = 0; i < list.length; i++){
+    summetion = summetion + list[i];
+  }
+  
+  print(summetion);
+}
