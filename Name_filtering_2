@@ -1,0 +1,11 @@
+void main(){
+  List<String> names = ["Shohan", "Rahim", "Sakib", "Karim", "Sumi"];
+  List<String> filterName = [];
+  
+  for(int i = 0; i<names.length; i++){
+    if(names[i].endsWith("m") && names.length >= 5){
+      filterName.add(names[i]);
+    }
+  }
+  print(filterName);
+}
