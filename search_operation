@@ -1,0 +1,19 @@
+bool contain(List list, int value) {
+  for (int i = 0; i < list.length; i++) {
+    if (list[i] == value) {
+      return true;
+    }
+  }
+  return false;
+}
+
+void main() {
+  List<int> list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  int value = 34;
+
+  if (contain(list, value) == true) {
+    print('$value is avilable from this list');
+  } else {
+    print('$value it is not avilable from this list');
+  }
+}
