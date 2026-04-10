@@ -1,0 +1,22 @@
+bool discount(List<int> list){
+  int count = 0;
+  
+  for(int i = 0; i < list.length; i++){
+    count = count + list[i];
+  }
+  if(count > 500){
+    return true;
+  }
+  else{
+    return false;
+  }
+  
+}
+void main(){
+  if(discount([100,500,200]) == true){
+    print("Avilable for discount");
+  }
+  else{
+    print("Not avilable for discount");
+  }
+}
