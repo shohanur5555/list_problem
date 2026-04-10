@@ -1,0 +1,12 @@
+void main(){
+  List<String> names = ["Shohan", "Rahim", "Sakib", "Karim", "Sumi"];
+  List<String> count = [];
+  for(int i = 0; i < names.length; i++){
+    if(names[i].toLowerCase().startsWith("s")){
+      count.add(names[i]);
+      
+    }
+  }
+  
+  print(count);
+}
