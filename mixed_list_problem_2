@@ -1,0 +1,23 @@
+void main(){
+  var list = ['shohan', 'shohanur', true, true,false, 21.3, 33.1, 323,234,4323];
+  List<String> name = [];
+  List<int> value = [];
+  List<bool> logic = [];
+  for(int i = 0; i<list.length; i++){
+    if(list[i] is String){
+      name.add(list[i] as String);
+    }
+    if(list[i] is int){
+      value.add(list[i] as int);
+    }
+    if(list[i] is bool){
+      logic.add(list[i] as bool);
+    }
+  }
+  
+  print(name);
+  print(value);
+  print(logic);
+  
+  
+}
