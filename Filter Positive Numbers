@@ -1,0 +1,12 @@
+void main(){
+  List<int> list = [-1, 2, -3, 4, 5];
+  List<int> positiveNumber = [];
+  
+  for(int i = 0; i < list.length; i++){
+    if(list[i] > 0){
+      positiveNumber.add(list[i]);
+    }
+  }
+  
+  print(positiveNumber);
+}
