@@ -1,0 +1,12 @@
+void main() {
+  List<int> list = [1, 2, 3, 5, 1, 6, 4, 9, 1, 6, 4, 7, 3];
+  List<int> list2 = [];
+
+  list2 = list.toSet().toList();
+  list2.sort();
+
+  int lergestNumber = list2[list2.length - 2];
+
+  print(list2);
+  print(lergestNumber);
+}
